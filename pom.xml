@@ -63,8 +63,8 @@
         <pluginToolsVersion>3.4</pluginToolsVersion>
         <addTimestamp>true</addTimestamp>
         <snapshot.repo.url>https://oss.sonatype.org/content/repositories/snapshots</snapshot.repo.url>
-        <mavenVersion>3.0.1</mavenVersion>
-        <reports-plugin-version>2.4</reports-plugin-version>
+        <mavenVersion>3.5.0</mavenVersion>
+        <reports-plugin-version>3.0.0</reports-plugin-version>
         <release.repo.url>https://oss.sonatype.org/service/local/staging/deploy/maven2</release.repo.url>
         <tag>${project.artifactId}-${project.version}</tag>
         <snapshot.repo.id>sonatype-server</snapshot.repo.id>
@@ -117,7 +117,7 @@
             <dependency>
                 <groupId>org.codehaus.plexus</groupId>
                 <artifactId>plexus-utils</artifactId>
-                <version>3.0.8</version>
+                <version>3.0.24</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven.plugin-tools</groupId>
@@ -309,7 +309,7 @@
                         <configuration>
                             <serverId>sonatype-server</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                            <stagingProfileId />
+                            <stagingProfileId/>
                         </configuration>
                     </plugin>
                 </plugins>
