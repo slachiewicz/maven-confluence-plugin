@@ -37,7 +37,7 @@
     </licenses>
 
     <properties>
-        <jackson.version>2.11.0</jackson.version>
+        <jackson.version>2.11.2</jackson.version>
     </properties>
 
     <dependencies>
